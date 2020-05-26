@@ -1,0 +1,14 @@
+1.Add <meta name="viewport" content="width=device-width,initial-scale=1"> to html
+
+2.width in 100% in each small element to make mobile first.
+
+3. 1.5px padding in links to make better user experience
+While the first value given to padding takes care of the top and bottom padding, the second value sets the left and right padding. By using the CSS keyword inherit, we are saying we want the padding property to inherit its value from its container (i.e., its parent element).
+
+.top-news__item a {
+  text-decoration: none;
+  color: #666;
+  padding: 1.5em inherit;
+}
+
+4.

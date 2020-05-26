@@ -1,0 +1,88 @@
+.container{
+    display:flex;
+   flex-wrap:wrap;
+    background-color: brown;
+}
+.card {
+    height: 110px;
+}
+.card1{
+    background-color: #bc658d;
+    width:100%;
+}
+.card2{
+    background-color:#82c4c3;
+    width:100%;
+}
+.card3{
+    background-color: #f9d89c;
+    width:100%;
+}
+.card4{
+    background-color:#f5a7a7;
+    width:100%;
+}
+.card5{
+    background-color: #82c4c3;
+    width:100%;
+}
+.card6{
+    background-color:  #bc658d;
+    width:100%;
+}
+.card7{
+    background-color: #f9d89c;
+    width:100%;
+}
+/* Media Query!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (min-width:340px) {
+  .card {
+    height: 140px;
+}
+.card1, .card2,
+.card3, .card4,
+.card5, .card6,
+.card7{
+   
+    width:100%;
+}
+
+}
+
+@media screen and (min-width:450px) {
+    .card {
+      height: 200px;
+  }
+  .card2,
+  .card3{
+    
+      width:50%;
+  }
+  
+  }
+  @media screen and (min-width:550px) {
+    .card {
+      height: 200px;
+  }
+  .card2,
+  .card3{
+    
+      width:50%;
+  }
+  .card4,
+  .card5, .card6{
+    
+      width:33.3333%;
+  }
+  
+  }
+
+  @media screen and (min-width:700px) {
+   .container{
+     width: 700px;
+     margin-left:auto;
+     margin-right:auto;
+   }
+  
+  }
+ 

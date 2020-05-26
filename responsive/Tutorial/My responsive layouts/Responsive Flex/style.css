@@ -1,0 +1,177 @@
+.container{
+    display:flex;
+   flex-wrap:wrap;
+    background-color: brown;
+}
+.card {
+    height: 110px;
+}
+.card1{
+    background-color: #bc658d;
+    width:100%;
+}
+.card2{
+    background-color:#82c4c3;
+    width:100%;
+}
+.card3{
+    background-color: #f9d89c;
+    width:100%;
+}
+.card4{
+    background-color:#f5a7a7;
+    width:100%;
+}
+.card5{
+    background-color: #82c4c3;
+    width:100%;
+}
+.card6{
+    background-color:  #bc658d;
+    width:100%;
+}
+.card7{
+    background-color: #f9d89c;
+    width:100%;
+}
+/* Media Query!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (min-width:340px) {
+  .card {
+    height: 140px;
+}
+.card1{
+   
+    width:100%;
+}
+.card2{
+   
+    width:100%;
+}
+.card3{
+   
+    width:100%;
+}
+.card4{
+   
+    width:100%;
+}
+.card5{
+    
+    width:100%;
+}
+.card6{
+   
+    width:100%;
+}
+.card7{
+  
+    width:100%;
+} 
+}
+
+@media screen and (min-width:500px) {
+    .card {
+      height: 200px;
+  }
+  .card1{
+     order:0;
+      width:50%;
+  }
+  .card2{
+    order:1;
+      width:50%;
+  }
+  .card3{
+    order:2;
+    width:50%;
+  }
+  .card4{
+    order:3;
+    width:50%;
+  }
+  .card5{
+    order:4;
+    width:50%;
+  }
+  .card6{
+    order:5;
+    width:50%;
+  }
+  .card7{
+    order:6;
+      width:100%;
+  } 
+  }
+  @media screen and (min-width:800px) {
+      .container{
+          justify-content: space-around;
+      }
+    .card {
+      height: 200px;
+    
+  }
+  .card1{
+     order:0;
+      width:40%;
+  }
+  .card2{
+    order:1;
+      width:40%;
+  }
+  .card3{
+    order:2;
+    width:40%;
+  }
+  .card4{
+    order:3;
+    width:40%;
+  }
+  .card5{
+    order:4;
+    width:40%;
+  }
+  .card6{
+    order:5;
+    width:40%;
+  }
+  .card7{
+    order:6;
+      width:100%;
+  } 
+  }
+  
+  @media screen and (min-width:1400px) {
+    .card {
+      height: 480px;
+  }
+  .card1{
+     order:0;
+      width:60%;
+  }
+  .card2{
+    order:1;
+      width:20%;
+  }
+  .card3{
+    order:2;
+    width:20%;
+  }
+  .card4{
+    order:3;
+    width:20%;
+  }
+  .card5{
+    order:4;
+    width:20%;
+  }
+  .card6{
+    order:5;
+    width:60%;
+  }
+  .card7{
+    order:6;
+      width:100%;
+  } 
+  }
+  
+  

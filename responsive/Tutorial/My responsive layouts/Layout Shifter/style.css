@@ -1,0 +1,52 @@
+.container{
+    width:100%;
+    display:flex;
+   flex-wrap:wrap;
+    background-color: brown;
+}
+.box {
+    height: 110px;
+    width:100%;
+}
+.dark_blue{
+    background-color: #617be3;
+    width:100%;
+}
+.light_blue{
+    background-color:#9aceff;
+    width:100%;
+}
+.green{
+    background-color: #639a67;
+    width:100%;
+}
+.red{
+    background-color:#eb6383;
+    width:100%;
+}
+
+/* Media Query!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+  @media screen and (min-width:500px) {
+   
+  .dark_blue,
+  #container2{
+      width:50%;
+  }
+  }
+
+  @media screen and (min-width:600px) {
+   
+    .dark_blue {
+         width:25%;
+         order:1;
+    }
+    #container2 {
+        width:50%;
+    }
+    .red {
+        width:25%;
+        order:-1;
+    }
+    }
